@@ -1,0 +1,23 @@
+.starProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#r{
+    padding-left: 3px;
+}
+.topRow{
+    display: flex;
+    margin-left: 3px;
+}
+
+.bottomRow{
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.starProduct img{
+    transition: all 0.5s;
+}
+.starProduct img:hover{
+    box-shadow: 3px 3px 40px -10px rgba(53, 53, 53, 0.363);
+}

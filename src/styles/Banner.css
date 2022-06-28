@@ -1,0 +1,10 @@
+.readMore{
+    text-decoration: none;
+    color: white;
+}
+.readMore:hover{
+    color: white;
+}
+.BannerImg{
+    opacity: 0.8;
+}

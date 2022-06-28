@@ -1,0 +1,46 @@
+.preNav{
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+
+.preNav > div{
+    padding: 0 4vmax;
+    display: flex;
+    align-items: center;
+    margin: 0.2vmax 2vmax;
+ }
+
+.preNav > div >span{
+    color: rgba(180, 180, 180, 0.644);
+    font-size: 0.8vmax;
+    font-weight: 100;
+}
+
+.preNav > div svg{
+    fill: rgb(180, 180, 180);
+}
+
+.preNav a{
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    margin: 0.5vmax 1.5vmax;
+    text-decoration: none;
+}
+.preNav a:hover{
+    color:white
+}
+#cart,#store{
+    display: flex;
+    align-items: center;
+}
+/* when cart <a> is hovered select svg inside it */
+#cart:hover svg,#store:hover svg{
+    fill: rgb(255, 255, 255);
+}
+#cart:hover,#store:hover{
+    color: white;
+}
