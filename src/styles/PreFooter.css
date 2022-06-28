@@ -6,18 +6,20 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
-
-.PreFooter > div{
+.PreFooter >a{
+  text-decoration: none;
+}
+.PreFooter >a> div{
     align-items: center;
     justify-content: center;
     display: flex;
     color:rgba(66, 66, 66, 0.829);
 cursor: pointer;
 }
-.PreFooter > div:hover svg{
+.PreFooter >a> div:hover svg{
 fill: rgb(34, 34, 34);
 }
-.PreFooter > div:hover p{
+.PreFooter >a> div:hover p{
     color: rgb(19, 18, 18);
 }
 

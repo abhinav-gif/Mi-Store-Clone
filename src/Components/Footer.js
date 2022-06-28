@@ -20,12 +20,18 @@ const Footer = () => {
     return (
         <>
             <div className="PreFooter">
-                <div>
-                    {repeatIcon}
-                    <p> <b>Hassle-free replacement</b> <br />10-day easy replacement policy on mi.com</p>
-                </div>
-                <div>{shieldIcon} <p> <b>100% secure payments</b> <br /> We support Cards, Wallets, EMI and COD</p></div>
-                <div>{mapIcon} <p> <b>Vast service network</b> <br /> 1000 Mi service-centers across 600 cities</p></div>
+                <a href='https://www.mi.com/in/service/replacefaq/'>
+                    <div>
+                        {repeatIcon}
+                        <p> <b>Hassle-free replacement</b> <br />10-day easy replacement policy on mi.com</p>
+                    </div>
+                </a>
+                <a href='https://www.mi.com/in/service/paymentfaq/'>
+                    <div>{shieldIcon} <p> <b>100% secure payments</b> <br /> We support Cards, Wallets, EMI and COD</p></div>
+                </a>
+                <a href='https://www.mi.com/in/service/repair/'>
+                    <div>{mapIcon} <p> <b>Vast service network</b> <br /> 1000 Mi service-centers across 600 cities</p></div>
+                </a>
             </div>
 
             <div className="PreFooter2">
