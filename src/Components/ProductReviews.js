@@ -1,11 +1,11 @@
 import React from 'react'
 import '../styles/ProductReviews.css'
 
-const ProductReviews = ({products}) => {
+const ProductReviews = ({ products }) => {
     return (
         <div className='ProductReviews'>
-            {products.map((item,index)=>(
-                <div className='reviewCard'>
+            {products.map((item, index) => (
+                <div className='reviewCard' key={item.image}>
                     <img src={item.image} alt={`${index} Product`} />
                     <div>
                         <h5>{item.review}</h5>

@@ -8,7 +8,7 @@ const Banner = ({ banner }) => {
         <Carousel>
             {
                 banner.map((item) => (
-                    <Carousel.Item>
+                    <Carousel.Item key={item.image}>
                         <img
                             className="d-block w-100 BannerImg"
                             src={item.image}
