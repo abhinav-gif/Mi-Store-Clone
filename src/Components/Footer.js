@@ -44,7 +44,10 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    {facebookIcon} {youtubeIcon} {instagramIcon} {twitterIcon}
+                    <a href='https://www.facebook.com/XiaomiIndia/'>{facebookIcon}</a>
+                    <a href='https://www.youtube.com/channel/UCCspJ6mFfCwOV4qFjZWi2wg'>{youtubeIcon} </a>
+                    <a href='https://www.instagram.com/xiaomiindia/?hl=en'>{instagramIcon}</a>
+                    <a href='https://twitter.com/xiaomiindia'>{twitterIcon}</a>
                 </div>
             </div>
         </>
