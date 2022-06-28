@@ -32,11 +32,10 @@ const Footer = () => {
                 <div> <p>LET'S STAY IN TOUCH</p><span>Get updates on sales specials and more</span></div>
 
                 <div>
-                    <div>
+                    <div className='inputIdiv'>
                         <input type="email" name="email" placeholder="Enter Email Address" />
                         <button>›</button>
                     </div>
-                    <span>Thanks. You're on our email list for special offers.</span>
                 </div>
 
                 <div>
